@@ -17,8 +17,13 @@ function operaciones(op)
         },
 	
 	multiplicar: function multiplicarNumeros(n1, n2){
+<<<<<<< HEAD
 	    return (parseInt(n1) - parseInt(n2));
 	}   
+=======
+	    return (parseInt(n1) * parseInt(n2));
+	}
+>>>>>>> master
     };
 
 
@@ -27,7 +32,7 @@ function operaciones(op)
     var num2 = document.getElementById("num2").value;
 
     
-    //Comprobamos si se ha introducido números en las cajas
+    
     if (isNaN(parseFloat(document.getElementById('num1').value))) {
         alert("Indique un número en 'numero1'");
         document.getElementById("num1").innerText = "0";
